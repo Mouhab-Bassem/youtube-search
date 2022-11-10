@@ -1,0 +1,35 @@
+.header-contain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    width: 100%;
+    padding: 16px;
+    background-color: #fff;
+    @media (max-width: 768px) {
+        position: static;
+    }
+    .header-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    .header-search {
+        width: 293px;
+        @media (max-width: 768px) {
+            width: calc(100% - 80px);
+            padding-left: 48px;
+
+        }
+    }
+    .header-logo {
+        @media (max-width: 768px) {
+            svg {
+                width: 80px;
+            }
+        }
+    }
+}
