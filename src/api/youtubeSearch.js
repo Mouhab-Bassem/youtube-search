@@ -5,7 +5,7 @@ const axiosInstance = axios.create({
     baseURL,
     params: {
         part: 'snippet',
-        key: process.env.REACT_APP_API_KEY,
+        key: "AIzaSyDn7mjR7sfbZLQ4nMvzCkFK2eNGN9YOtzg",
         maxResults: 50,
 
     },
